@@ -1,1 +1,1 @@
-console.log('커맨드 작동 테스트')
+console.log('hello world!');
