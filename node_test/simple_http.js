@@ -3,7 +3,7 @@ const PORT = 12010;
 
 const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "text/plain; charset=utf-8");
-  res.end(JSON.stringify(obj));
+  res.end(`안녕하세요!  반가워요`);
 });
 
 server.listen(PORT, () => {
